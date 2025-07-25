@@ -1,0 +1,7 @@
+{
+    "name": "pdf-js-viewer-static",
+    "version": "1.0.0",
+    "scripts": {
+      "vercel-build": "echo 'Build step bypassed. Deploying static files.'"
+    }
+  }
