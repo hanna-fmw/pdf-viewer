@@ -1,19 +1,19 @@
 {
 	"builds": [
-	  {
-		"src": "**/*",
-		"use": "@vercel/static"
-	  }
+		{
+			"src": "**/*",
+			"use": "@vercel/static"
+		}
 	],
 	"headers": [
-	  {
-		"source": "/(.*)",
-		"headers": [
-		  {
-			"key": "Access-Control-Allow-Origin",
-			"value": "*"
-		  }
-		]
-	  }
+		{
+			"source": "/(.*)",
+			"headers": [
+				{
+					"key": "Access-Control-Allow-Origin",
+					"value": "*"
+				}
+			]
+		}
 	]
-  }
+}
